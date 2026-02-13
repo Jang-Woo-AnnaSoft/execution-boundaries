@@ -1,7 +1,6 @@
 # execution-boundaries
 ---
 
-
 ![Design Notes](https://img.shields.io/badge/design-notes-lightgrey)
 ![Status: Exploratory](https://img.shields.io/badge/status-exploratory-blue)
 ![Focus: Execution Boundaries](https://img.shields.io/badge/focus-execution--boundaries-black)
@@ -43,8 +42,6 @@ These notes focus on separating intent, state, and effect, and on structuring ex
         Execution Boundaries
         (traceable decisions, explicit responsibility)
 
-...
-```
 
 These notes are not intended as a standard or a complete framework.
 They are a set of connected design explorations around execution boundaries and responsibility structures.

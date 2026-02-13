@@ -54,7 +54,7 @@ This repository acts as an anchor connecting the broader discussion across multi
 
 ---
 
-## Design Map — Execution Boundaries
+## Related Discussions (Hugging Face)
 
 - [Making the Physical World Callable for AI](https://discuss.huggingface.co/t/making-the-physical-world-callable-for-ai/172627)
 - [ISE (Intent–State–Effect) Model](https://discuss.huggingface.co/t/ise-intent-state-effect-model-isolating-judgment-for-cost-optimization-and-explainable-safety/172853)

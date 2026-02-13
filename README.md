@@ -42,6 +42,7 @@ These notes focus on separating intent, state, and effect, and on structuring ex
         Execution Boundaries
         (traceable decisions, explicit responsibility)
 
+```
 ---
 
 These notes are not intended as a standard or a complete framework.

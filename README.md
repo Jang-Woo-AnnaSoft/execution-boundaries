@@ -1,9 +1,12 @@
 # execution-boundaries
----
+
 
 ![Design Notes](https://img.shields.io/badge/design-notes-lightgrey)
 ![Status: Exploratory](https://img.shields.io/badge/status-exploratory-blue)
 ![Focus: Execution Boundaries](https://img.shields.io/badge/focus-execution--boundaries-black)
+
+> Minimal design explorations on execution boundaries and traceable AI actions.
+
 
 Define execution boundaries first — let autonomy grow only where judgment remains explicit.
 
@@ -45,10 +48,10 @@ These notes focus on separating intent, state, and effect, and on structuring ex
 ```
 ---
 
+The goal is to make AI actions more interpretable by declaring limits first, and expanding autonomy only where judgment remains explicit.
+
 These notes are not intended as a standard or a complete framework.
 They are a set of connected design explorations around execution boundaries and responsibility structures.
-
-The goal is to make AI actions more interpretable by declaring limits first, and expanding autonomy only where judgment remains explicit.
 
 This repository acts as an anchor connecting the broader discussion across multiple design notes.
 

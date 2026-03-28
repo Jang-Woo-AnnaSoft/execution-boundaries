@@ -64,4 +64,8 @@ This repository acts as an anchor connecting the broader discussion across multi
 - [The 9-Question Protocol](https://discuss.huggingface.co/t/the-9-question-protocol-for-responsible-ai-actions/173045)
 - [Stop Turning Buttons into Switches](https://discuss.huggingface.co/t/stop-turning-buttons-into-switches/173264)
 
+## Related project:
+https://github.com/anna-soft/Nemo-Anna
 
+## 🌐 Project overview:
+https://anna.software

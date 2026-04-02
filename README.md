@@ -5,29 +5,24 @@
 ![Status: Exploratory](https://img.shields.io/badge/status-exploratory-blue)
 ![Focus: Execution Boundaries](https://img.shields.io/badge/focus-execution--boundaries-black)
 
-> Minimal design explorations on execution boundaries and traceable AI actions.
+---
 
-> We don’t control devices by telling them what to do.<BR>
-> We control them by defining when actions are allowed.<BR>
+> We don’t control devices by telling them what to do.  
+> We control them by defining when actions are allowed.  
 > Execution happens only when those boundaries are satisfied.
 
+---
 
 Define execution boundaries first — let autonomy grow only where judgment remains explicit.
 
-Design notes on execution boundaries and responsibility structures for AI systems interacting with the physical world.
-
 As AI begins to participate in real-world decisions, the core challenge is no longer model capability — but how execution is allowed, constrained, and interpreted.
 
-This repository connects a set of related design explorations:
+---
 
-- Intent–State–Effect (ISE) Model  
-- The 9-Question Protocol for Responsible AI Actions  
-- Button vs Switch: Action Semantics at Runtime  
-- Making the Physical World Callable for AI  
+This repository explores a minimal structure for:
 
-The goal is not to define a standard, but to explore a minimal structure that makes execution decisions traceable and responsibility boundaries explicit.
-
-These notes focus on separating intent, state, and effect, and on structuring execution conditions before autonomy expands beyond control.
+- making execution decisions traceable  
+- making responsibility boundaries explicit  
 
 ---
 
@@ -52,12 +47,9 @@ These notes focus on separating intent, state, and effect, and on structuring ex
 ```
 ---
 
-The goal is to make AI actions more interpretable by declaring limits first, and expanding autonomy only where judgment remains explicit.
+The goal is not to define a standard, but to explore a minimal structure that makes execution decisions traceable and responsibility boundaries explicit.
 
-These notes are not intended as a standard or a complete framework.
-They are a set of connected design explorations around execution boundaries and responsibility structures.
-
-This repository acts as an anchor connecting the broader discussion across multiple design notes.
+These notes focus on separating intent, state, and effect, and on structuring execution conditions before autonomy expands beyond control.
 
 ---
 

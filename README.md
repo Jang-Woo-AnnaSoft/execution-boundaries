@@ -7,11 +7,9 @@
 
 > Minimal design explorations on execution boundaries and traceable AI actions.
 
-We don’t control devices by telling them what to do.
-
-We control them by defining when actions are allowed.
-
-Execution happens only when those boundaries are satisfied.
+> We don’t control devices by telling them what to do.<BR>
+> We control them by defining when actions are allowed.<BR>
+> Execution happens only when those boundaries are satisfied.
 
 
 Define execution boundaries first — let autonomy grow only where judgment remains explicit.

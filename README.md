@@ -5,7 +5,6 @@
 ![Status: Exploratory](https://img.shields.io/badge/status-exploratory-blue)
 ![Focus: Execution Boundaries](https://img.shields.io/badge/focus-execution--boundaries-black)
 
----
 
 > We don’t control devices by telling them what to do.  
 > We control them by defining when actions are allowed.  

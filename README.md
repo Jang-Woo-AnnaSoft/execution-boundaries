@@ -48,8 +48,6 @@ This repository explores a minimal structure for:
 
 The goal is not to define a standard, but to explore a minimal structure that makes execution decisions traceable and responsibility boundaries explicit.
 
-These notes focus on separating intent, state, and effect, and on structuring execution conditions before autonomy expands beyond control.
-
 ---
 
 ## Related Discussions (Hugging Face)

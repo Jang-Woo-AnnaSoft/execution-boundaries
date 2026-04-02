@@ -10,7 +10,6 @@
 > We control them by defining when actions are allowed.  
 > Execution happens only when those boundaries are satisfied.
 
----
 
 Define execution boundaries first — let autonomy grow only where judgment remains explicit.
 

@@ -36,7 +36,7 @@ This repository explores a minimal structure for:
 [The 9-Question Protocol]
     → defining judgment completeness before execution
 
-[Stop Turning Buttons into Switches]
+[An Interpretive Framework for AI Safety]
     → preserving clear action semantics at runtime
                  ↓
         Execution Boundaries
@@ -54,7 +54,7 @@ The goal is not to define a standard, but to explore a minimal structure that ma
 - [Making the Physical World Callable for AI](https://discuss.huggingface.co/t/making-the-physical-world-callable-for-ai/172627)
 - [ISE (Intent–State–Effect) Model](https://discuss.huggingface.co/t/ise-intent-state-effect-model-isolating-judgment-for-cost-optimization-and-explainable-safety/172853)
 - [The 9-Question Protocol](https://discuss.huggingface.co/t/the-9-question-protocol-for-responsible-ai-actions/173045)
-- [Stop Turning Buttons into Switches](https://discuss.huggingface.co/t/stop-turning-buttons-into-switches/173264)
+- [An Interpretive Framework for AI Safety](https://discuss.huggingface.co/t/stop-turning-buttons-into-switches/173264)
 
 ## Related project:
 https://github.com/anna-soft/Nemo-Anna

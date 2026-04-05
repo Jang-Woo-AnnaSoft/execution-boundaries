@@ -9,6 +9,18 @@
 > We raise this issue from the perspective of helping them evolve faster and become safer.
 
 ---
+## Why This Project?
+
+From Abstract Ethics to Technical Realization
+
+AI ethics must no longer remain as mere declarative statements. 
+This project aims to transform abstract "ethical guidelines" into "Technical Execution Logic" that functions reliably within the physical world.
+
+Making the Physical World Callable for AI: **Defining the Essence, declaring the Boundaries, and Delivering these insights to the AI.**
+
+The 9-Question Protocol for Responsible AI Actions: **The standardization of Logical Validation prior to any execution.**
+
+---
 
 ## 1. The Problem: The Gap Between Execution and Awareness
 

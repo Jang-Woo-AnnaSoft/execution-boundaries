@@ -33,7 +33,7 @@ This repository explores a minimal structure for:
 [Intent–State–Effect: A Minimal Interaction Model]
     → separating Intent, State, and Effect
 
-[The 9-Question Protocol]
+[The 9-Question Protocol for Responsible AI Actions]
     → defining judgment completeness before execution
 
 [An Interpretive Framework for AI Safety]
@@ -53,7 +53,7 @@ The goal is not to define a standard, but to explore a minimal structure that ma
 
 - [Making the Physical World Callable for AI](https://discuss.huggingface.co/t/making-the-physical-world-callable-for-ai/172627)
 - [Intent–State–Effect: A Minimal Interaction Model](https://discuss.huggingface.co/t/ise-intent-state-effect-model-isolating-judgment-for-cost-optimization-and-explainable-safety/172853)
-- [The 9-Question Protocol](https://discuss.huggingface.co/t/the-9-question-protocol-for-responsible-ai-actions/173045)
+- [The 9-Question Protocol for Responsible AI Actions](https://discuss.huggingface.co/t/the-9-question-protocol-for-responsible-ai-actions/173045)
 - [An Interpretive Framework for AI Safety](https://discuss.huggingface.co/t/stop-turning-buttons-into-switches/173264)
 
 ## Related project:

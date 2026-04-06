@@ -100,6 +100,18 @@ When AI interacts with physical systems, lack of context directly leads to safet
 - ❌ Past: Was the execution correct?
 - ✅ Present: Should the execution have happened at all?
 
+### What This Actually Means
+
+This is not just an IoT problem.
+
+This applies to any system that can act in the physical world:
+• AI Agents  
+• Robotics  
+• Smart Home  
+• Autonomous Systems  
+
+ **Any system that can take action must be able to decide whether that action should be allowed.**
+ 
 ---
 
 ## 5. Who This Is For

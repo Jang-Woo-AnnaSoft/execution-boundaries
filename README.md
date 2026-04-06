@@ -95,7 +95,7 @@ When AI interacts with physical systems, lack of context directly leads to safet
 
 ---
 
-## 🔗 Related Discussions
+## 🔗 Related Discussions (Hugging Face)
 
 This work is part of a broader exploration of how AI should interact with the physical world:
 
@@ -121,4 +121,17 @@ This work is part of a broader exploration of how AI should interact with the ph
 A working implementation of this concept is available here:
 
 👉 https://github.com/anna-soft/Nemo-Anna
+
+## 🌐 Project Overview
+
+👉 https://anna.software
+
+This project defines **what actions are allowed, when they are allowed, and how they should behave**.
+
+With just **9 structured questions**, a complete device behavior can be defined.
+
+This is not a concept.  
+**It is already implemented.**
+
+Scan a QR code on a Matter-enabled platform, and the device works immediately.
 

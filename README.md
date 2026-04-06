@@ -95,16 +95,14 @@ AI Command
 
 User: "Turn on the heater"
 
-System:
+System: ❌ Execution Rejected
 
-❌ Execution Rejected
-
-Reason:
-• This device may generate high heat.
-• Remote operation is restricted by the manufacturer.
+Reason:  
+• This device may generate high heat.  
+• Remote operation is restricted by the manufacturer.  
 • The user's presence cannot be verified.
 
-Suggestion:
+Suggestion:  
 • Please confirm the situation locally before operating the device.
 
 ---

@@ -111,12 +111,23 @@ When AI interacts with physical systems, lack of context directly leads to safet
 
 ---
 
-## 6. Core Principles
+## 6. How This Can Be Implemented
 
-1. Validate before execution (Validate → Execute, not Execute → Fix)
-2. Shift from device-centric to action-centric modeling
-3. Treat boundaries as first-class elements of action definition
-4. Enable systems to reject actions, not just execute them
+This approach does not require new standards.
+
+It can be implemented using existing fields such as:
+
+• UserLabel  
+• FixedLabel  
+
+to encode:
+
+• Intent (what this action means)  
+• Safety (what must be protected)  
+• Boundary (what must never be crossed)
+
+This allows systems to carry meaning  
+without breaking existing architectures.
 
 ---
 

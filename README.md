@@ -50,6 +50,16 @@ And start asking:
 
 ---
 
+**Traditional IoT systems rely on device types.**
+
+• This does not scale.  
+• Every new device requires a new type.
+
+So systems simplify everything into generic categories like “Switch.”  
+**And from that moment, AI no longer knows what it is controlling.**
+
+---
+
 ## 2. Paradigm Shift: From Capability to Permission
 
 We introduce a semantic layer between AI and the physical world that fundamentally changes how execution works.

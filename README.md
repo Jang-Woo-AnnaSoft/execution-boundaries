@@ -24,18 +24,29 @@ AI does not even know the names of the devices it controls, nor does it understa
 
 ## 1. The Problem — It's acting without understanding.
 
-The same `Switch → ON` command can produce completely different outcomes depending on the device:
+The same Switch → ON command can lead to completely different results.
 
-- Baby mobile → music and rotation (safe)
-- Electric heater → heat generation and fire risk (potentially dangerous)
+- Baby Mobile → Music and spinning (**Safe**)
 
-Most smart home standards, such as Matter, treat both as the same type of "switch." The system lacks **semantics**.
+- Space Heater → High heat and fire hazard (**Dangerous**)
 
-We must move beyond asking:
-> "Can this action be executed?"
+Most smart home standards, like Matter, treat both as just a "Switch." **The system cannot tell them apart**.
 
-and start asking:
-> **"Should this action be executed now?"**
+## Unprepared Execution
+The AI ​​always answers "Yes" to the question, "Can you do this?"  
+This can lead to disasters such as the following:
+
+- In a room where a baby is sleeping, the AI ​​fails to distinguish between a speaker and a light and activates a high-power speaker.
+- You asked it to spray air freshener, but the AI ​​turns on an electric heater covered in clothes.
+- You tried to open the inner bedroom door, but the AI ​​opened the front door, allowing a stranger to enter.
+- You asked it to water the yard, but the AI ​​fully opened the water valve in the laundry room, flooding the entire house.
+
+
+We must move beyond simply asking:
+"Can you do this task?"
+
+And start asking:
+**"Is this action ready to be executed?"**
 
 ---
 

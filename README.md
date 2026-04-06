@@ -22,7 +22,7 @@ AI does not even know the names of the devices it controls, nor does it understa
 
 ---
 
-## 1. The Problem Is Not Control — It’s Missing Semantics
+## 1. The Problem — It's acting without understanding.
 
 The same `Switch → ON` command can produce completely different outcomes depending on the device:
 

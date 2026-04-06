@@ -105,6 +105,16 @@ Reason:
 Suggestion:  
 • Please confirm the situation locally before operating the device.
 
+### Example: Clarification Required
+
+User: "Open the door"
+
+System: ⚠️ Clarification Required
+
+Multiple doors are available (front door, bedroom door).  
+Opening the wrong door may have security implications.  
+Please specify which door you want to open.
+
 ---
 
 ## 4. Why This Is Important

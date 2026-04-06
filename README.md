@@ -209,3 +209,8 @@ AI does not need to guess anymore.
 
 Scan a QR code on a Matter-enabled platform, and the device works immediately.
 
+
+
+> ### AI should not act because it can.  
+> ### It should act only when it understands.
+

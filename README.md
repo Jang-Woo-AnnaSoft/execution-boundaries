@@ -49,7 +49,7 @@ And start asking:
 
 ---
 
-**Traditional IoT systems rely on device types.**
+### Traditional IoT systems rely on device types.
 
 • This does not scale.  
 • Every new device requires a new type.
@@ -115,18 +115,15 @@ When AI interacts with physical systems, lack of context directly leads to safet
 This approach does not require new standards.
 
 It can be implemented using existing fields such as:
-
 • UserLabel  
 • FixedLabel  
 
 to encode:
-
 • Intent (what this action means)  
 • Safety (what must be protected)  
 • Boundary (what must never be crossed)
 
-This allows systems to carry meaning  
-without breaking existing architectures.
+**This allows systems to carry meaning without breaking existing architectures.**
 
 ---
 
@@ -138,11 +135,11 @@ This work is part of a broader exploration of how AI should interact with the ph
 - [**Making the Physical World Callable for AI**](https://discuss.huggingface.co/t/making-the-physical-world-callable-for-ai/172627)     
   Defines how physical actions are represented between devices and platforms so that AI can interpret them meaningfully.
 
-- [**The 9-Question Protocol for Responsible AI Actions**](https://discuss.huggingface.co/t/ise-intent-state-effect-model-isolating-judgment-for-cost-optimization-and-explainable-safety/172853)      
+- [**The 9-Question Protocol for Responsible AI Actions**](https://discuss.huggingface.co/t/the-9-question-protocol-for-responsible-ai-actions/173045)      
   Defines how actions are validated, including who is responsible for approval and under what conditions execution is allowed.
 
 ### Supporting Model
-- [**Intent–State–Effect: A Minimal Interaction Model**](https://discuss.huggingface.co/t/the-9-question-protocol-for-responsible-ai-actions/173045)      
+- [**Intent–State–Effect: A Minimal Interaction Model**](https://discuss.huggingface.co/t/ise-intent-state-effect-model-isolating-judgment-for-cost-optimization-and-explainable-safety/172853)      
   Provides a simplified structure for modeling actions, focusing on efficiency and reducing unnecessary execution cost.
 
 ### Extended Perspective
@@ -157,7 +154,7 @@ How physical actions are represented and handled between devices and platforms c
 
 👉 https://github.com/anna-soft/Nemo-Anna
 
-The approval process and permission model are defined in the [**The 9-Question Protocol for Responsible AI Actions**](https://discuss.huggingface.co/t/ise-intent-state-effect-model-isolating-judgment-for-cost-optimization-and-explainable-safety/172853) document, where they are proposed as a JSON schema.
+The approval process and permission model are defined in the [**The 9-Question Protocol for Responsible AI Actions**](https://discuss.huggingface.co/t/the-9-question-protocol-for-responsible-ai-actions/173045) document, where they are proposed as a JSON schema.
 
 The adoption and final form of this schema should be determined through collaboration between regulators, users, and platforms.
 
@@ -169,7 +166,7 @@ This project defines **what actions are allowed, when they are allowed, and how 
 
 With just **9 structured questions**, a complete device behavior can be defined.
 
-This is not a concept.
+This is not a concept.  
 **It is already implemented.**
 
 AI does not need to guess anymore.

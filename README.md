@@ -100,22 +100,18 @@ When AI interacts with physical systems, lack of context directly leads to safet
 This work is part of a broader exploration of how AI should interact with the physical world:
 
 ### Core Concepts
-- **Making the Physical World Callable for AI**  
-  https://github.com/Jang-woo-AnnaSoft/execution-boundaries/#making-the-physical-world-callable-for-ai  
+- [**Making the Physical World Callable for AI**](https://discuss.huggingface.co/t/making-the-physical-world-callable-for-ai/172627)     
   Defines how physical actions are represented between devices and platforms so that AI can interpret them meaningfully.
 
-- **The 9-Question Protocol for Responsible AI Actions**  
-  https://github.com/Jang-woo-AnnaSoft/execution-boundaries/#the-9-question-protocol-for-responsible-ai-actions  
+- [**The 9-Question Protocol for Responsible AI Actions**](https://discuss.huggingface.co/t/ise-intent-state-effect-model-isolating-judgment-for-cost-optimization-and-explainable-safety/172853)      
   Defines how actions are validated, including who is responsible for approval and under what conditions execution is allowed.
 
 ### Supporting Model
-- **Intent–State–Effect: A Minimal Interaction Model**  
-  https://github.com/Jang-woo-AnnaSoft/execution-boundaries/#intentstateeffect-a-minimal-interaction-model  
+- [**Intent–State–Effect: A Minimal Interaction Model**](https://discuss.huggingface.co/t/the-9-question-protocol-for-responsible-ai-actions/173045)      
   Provides a simplified structure for modeling actions, focusing on efficiency and reducing unnecessary execution cost.
 
 ### Extended Perspective
-- **An Interpretive Framework for AI Safety**  
-  https://github.com/Jang-woo-AnnaSoft/execution-boundaries/#an-interpretive-framework-for-ai-safety  
+- [**An Interpretive Framework for AI Safety**](https://discuss.huggingface.co/t/stop-turning-buttons-into-switches/173264)      
   Explores responsibility, legal interpretation, and accountability across users, manufacturers, and platforms.
 
 ---

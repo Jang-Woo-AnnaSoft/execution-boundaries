@@ -14,7 +14,7 @@ AI has moved beyond mere words; it is now opening your front door and operating 
 
 But there is a fatal flaw.
 
-AI does not even know the names of the devices it controls, nor does it understand what will happen when it presses a button.
+AI does not even know what the device actually is, nor what will happen when it presses a button.
 
 > You are currently entrusting your family’s safety to a blind pilot—one who doesn’t know what he’s touching or what the consequences of his actions will be.
 
@@ -36,7 +36,6 @@ Most smart home standards, like Matter, treat both as just a "Switch." **The sys
 The AI ​​always answers "Yes" to the question, "Can you do this?"  
 This can lead to disasters such as the following:
 
-- In a room where a baby is sleeping, the AI ​​fails to distinguish between a speaker and a light and activates a high-power speaker.
 - You asked it to spray air freshener, but the AI ​​turns on an electric heater covered in clothes.
 - You tried to open the inner bedroom door, but the AI ​​opened the front door, allowing a stranger to enter.
 - You asked it to water the yard, but the AI ​​fully opened the water valve in the laundry room, flooding the entire house.
@@ -170,8 +169,10 @@ This project defines **what actions are allowed, when they are allowed, and how 
 
 With just **9 structured questions**, a complete device behavior can be defined.
 
-This is not a concept.  
+This is not a concept.
 **It is already implemented.**
+
+AI does not need to guess anymore.
 
 Scan a QR code on a Matter-enabled platform, and the device works immediately.
 

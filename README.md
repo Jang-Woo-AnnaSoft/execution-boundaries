@@ -128,7 +128,7 @@ When AI interacts with physical systems, lack of context directly leads to safet
 
 This is not just an IoT problem.
 
-This applies to any system that can act in the physical world:
+This applies to any system that can act in the physical world:  
 • AI Agents  
 • Robotics  
 • Smart Home  

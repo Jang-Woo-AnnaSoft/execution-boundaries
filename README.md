@@ -9,203 +9,120 @@
 > We raise this issue from the perspective of helping them evolve faster and become safer.
 
 ---
-## Why This Project?
 
-From Abstract Ethics to Technical Realization
+**Defining not just what AI can do, but what it may and should do.**
 
-AI ethics must no longer remain as mere declarative statements. 
-This project aims to transform abstract "ethical guidelines" into "Technical Execution Logic" that functions reliably within the physical world.
+AI is no longer confined to screens. It is beginning to act in the physical world—turning on devices, controlling systems, and triggering real-world effects. But there is a critical problem.
 
-Making the Physical World Callable for AI: **Defining the Essence, declaring the Boundaries, and Delivering these insights to the AI.**
-
-The 9-Question Protocol for Responsible AI Actions: **The standardization of Logical Validation prior to any execution.**
+**AI knows how to execute actions, but it does not know whether those actions should be executed in a given context.**
 
 ---
 
-## 1. The Problem: The Gap Between Execution and Awareness
+## 1. The Problem Is Not Control — It’s Missing Semantics
 
-The system is not wrongly designed.  
-**The situation is changing.**
+The same `Switch → ON` command can produce completely different outcomes depending on the device:
 
-We are no longer controlling systems purely through human commands.  
-**AI-driven control based on inference has already begun.**
+- Baby mobile → music and rotation (safe)
+- Electric heater → heat generation and fire risk (potentially dangerous)
 
----
+Most smart home standards, such as Matter, treat both as the same type of "switch." The system lacks **semantics**.
 
-We believe modern IoT systems are “under control.”  
-But reality is different.
+We must move beyond asking:
+> "Can this action be executed?"
 
-### Same Treatment
-
-A baby mobile, a desk lamp, a high-heat space heater…  
-From the system’s perspective, they are all just **“endpoints.”**
+and start asking:
+> **"Should this action be executed now?"**
 
 ---
 
-### Lack of Judgment
+## 2. Paradigm Shift: From Capability to Permission
 
-The system executes actions.  
-But it cannot answer:
+We introduce a semantic layer between AI and the physical world that fundamentally changes how execution works.
 
-> **“Should this action be executed in this situation?”**
-
-There is no layer that can answer this question.
-
----
-
-The problem is not incorrect execution.
-
-> **The real problem is that the action itself  
-should not have happened in the first place.**
+| Aspect | Device-Centric (Traditional) | Action-Centric (Proposed) |
+|--------|-----------------------------|---------------------------|
+| Perspective | Can it execute? | Is it allowed? |
+| Model | Device-based (Switch, Light) | Action-based (Heating, Rotation) |
+| Logic | Execute when condition is true | Reject when constraints are violated |
+| Result | Execution is default | Execution is validated |
 
 ---
 
-## 2. Our Proposal: Beyond Device-Type, Towards Execution Context
+## 3. Core Mechanism: Execution Validation + Boundaries
 
-We are not adding another feature.  
-We are redesigning how execution itself is defined.
+Actions are not treated as commands, but as **objects that must pass validation before execution**.
 
----
+- **Intent**: What is the goal of the action?
+- **Effect**: What physical change does it cause?
+- **Boundaries**: What limits must never be exceeded?
+- **Conditions**: Under what context is it allowed?
 
-### Limitations of Device-Type Based Systems
+**Execution Flow:**
+```
+AI Command
+→ Execution Validation (Intent / Effect / Conditions / Boundaries)
+→ Approved → Execute
+→ Rejected → Explain why
+```
 
-Current IoT systems rely on **Device-Type**.
-
-This approach has two fundamental limitations:
-
-- **Lack of scalability**  
-  Adding new device types for every variation is not sustainable  
-
-- **Lack of context**  
-  A “switch” does not carry meaning —  
-  the system cannot distinguish between a light and a heater  
-
----
-
-### A New Approach: Context-Based Labeling
-
-Instead of introducing new device types,  
-we propose embedding AI-interpretable context into existing labels:
-
-- **Intent**  
-- **Safety**  
-- **Boundary**  
-
-using **UserLabel / FixedLabel**.
+**Principle:** If any condition or boundary is violated, the system must reject the action and provide a clear reason.
 
 ---
 
-### Core Philosophy: Capability vs. Permission
+## 4. Why This Is Important
 
-Knowing **what AI can do (Capability)** is a technical problem.
+When AI interacts with physical systems, lack of context directly leads to safety risks.
 
-But,
-
-> **Knowing what AI is allowed to do (Permission & Safety)**
-
-is a design problem.
+- ❌ Past: Was the execution correct?
+- ✅ Present: Should the execution have happened at all?
 
 ---
 
-## 3. Core Frameworks
+## 5. Who This Is For
 
-This project introduces four frameworks to address this gap.
-
----
-
-### ① Making the Physical World Callable for AI
-
-Redefine physical actions beyond ON/OFF signals by including:
-
-- Intent  
-- Context  
-- Condition  
-
-**Goal**  
-→ AI understands what it is interacting with, not just triggering signals
+- **End Users**: Understand why a device acted (or refused to act) and build trust in AI systems.
+- **Developers**: Move beyond simple ON/OFF abstractions and define actions with intent and constraints.
+- **Platforms & AI Safety Systems**: Introduce a veto layer that prevents unsafe execution and clarifies responsibility.
 
 ---
 
-### ② Intent–State–Effect: A Minimal Interaction Model
+## 6. Core Principles
 
-Structure actions into:
-
-- Intent  
-- State  
-- Effect  
-
-**Goal**
-
-- Reduce unnecessary execution  
-- Enable state-aware decision making  
-- Lower system complexity  
-
-> **Less cost, more accurate execution**
+1. Validate before execution (Validate → Execute, not Execute → Fix)
+2. Shift from device-centric to action-centric modeling
+3. Treat boundaries as first-class elements of action definition
+4. Enable systems to reject actions, not just execute them
 
 ---
 
-### ③ The 9-Question Protocol for Responsible AI Actions
+## 🔗 Related Discussions
 
-A practical, immediately applicable **technical method (JSON Schema)**.
+This work is part of a broader exploration of how AI should interact with the physical world:
 
-Every action must be validated before it can exist:
+### Core Concepts
+- **Making the Physical World Callable for AI**  
+  https://github.com/Jang-woo-AnnaSoft/execution-boundaries/#making-the-physical-world-callable-for-ai  
+  Defines how physical actions are represented between devices and platforms so that AI can interpret them meaningfully.
 
-- What is the intent?  
-- What is the effect?  
-- When is it allowed to execute?  
-- What boundaries must never be crossed?  
-- What are the physical impacts (start/stop)?  
+- **The 9-Question Protocol for Responsible AI Actions**  
+  https://github.com/Jang-woo-AnnaSoft/execution-boundaries/#the-9-question-protocol-for-responsible-ai-actions  
+  Defines how actions are validated, including who is responsible for approval and under what conditions execution is allowed.
 
-**Result**
+### Supporting Model
+- **Intent–State–Effect: A Minimal Interaction Model**  
+  https://github.com/Jang-woo-AnnaSoft/execution-boundaries/#intentstateeffect-a-minimal-interaction-model  
+  Provides a simplified structure for modeling actions, focusing on efficiency and reducing unnecessary execution cost.
 
-> From systems that execute blindly  
-> → to systems where undefined actions cannot exist
-
----
-
-### ④ An Interpretive Framework for AI Safety
-
-When abstraction diverges from physical reality,  
-the issue becomes **responsibility**, not technology.
-
-**Problems**
-
-- Mismatch between user expectation and actual behavior  
-- Conflicts between manufacturers and platforms  
-- Undefined responsibility in case of incidents  
-
-**Goal**
-
-> Provide a legal and ethical interpretation framework for AI execution
+### Extended Perspective
+- **An Interpretive Framework for AI Safety**  
+  https://github.com/Jang-woo-AnnaSoft/execution-boundaries/#an-interpretive-framework-for-ai-safety  
+  Explores responsibility, legal interpretation, and accountability across users, manufacturers, and platforms.
 
 ---
 
-## 4. Concrete Implementation
+## 📦 Implementation
+
+A working implementation of this concept is available here:
 
 👉 https://github.com/anna-soft/Nemo-Anna
 
-This repository provides:
-
-- Structural design  
-- JSON-based definition model  
-- Execution validation framework  
-
----
-
-## 🔗 Related Discussions (Hugging Face)
-
-This is not just a proposal.  
-It is part of an ongoing discussion on how AI should interact with the physical world.
-
-- [Making the Physical World Callable for AI](https://discuss.huggingface.co/t/making-the-physical-world-callable-for-ai/172627)
-- [Intent–State–Effect: A Minimal Interaction Model](https://discuss.huggingface.co/t/ise-intent-state-effect-model-isolating-judgment-for-cost-optimization-and-explainable-safety/172853)
-- [The 9-Question Protocol for Responsible AI Actions](https://discuss.huggingface.co/t/the-9-question-protocol-for-responsible-ai-actions/173045)
-- [An Interpretive Framework for AI Safety](https://discuss.huggingface.co/t/stop-turning-buttons-into-switches/173264)
-
-## 🔑 Core Idea
-
-> **Execution is not a right.  
-> It is a permission.**
-
-## 🌐 Project overview:
-https://anna.software

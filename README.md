@@ -91,6 +91,22 @@ AI Command
 
 **Principle:** If any condition or boundary is violated, the system must reject the action and provide a clear reason.
 
+### Example: Rejected Execution
+
+User: "Turn on the heater"
+
+System:
+
+❌ Execution Rejected
+
+Reason:
+• This device may generate high heat.
+• Remote operation is restricted by the manufacturer.
+• The user's presence cannot be verified.
+
+Suggestion:
+• Please confirm the situation locally before operating the device.
+
 ---
 
 ## 4. Why This Is Important

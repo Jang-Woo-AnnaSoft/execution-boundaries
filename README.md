@@ -112,13 +112,13 @@ When AI interacts with physical systems, lack of context directly leads to safet
 
 ## 6. How This Can Be Implemented
 
-This approach does not require new standards.
+**This approach does not require new standards.**
 
-It can be implemented using existing fields such as:
+It can be implemented using existing fields such as:  
 • UserLabel  
 • FixedLabel  
 
-to encode:
+to encode:  
 • Intent (what this action means)  
 • Safety (what must be protected)  
 • Boundary (what must never be crossed)

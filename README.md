@@ -118,9 +118,13 @@ This work is part of a broader exploration of how AI should interact with the ph
 
 ## 📦 Implementation
 
-A working implementation of this concept is available here:
+How physical actions are represented and handled between devices and platforms can be found in the repository below.
 
 👉 https://github.com/anna-soft/Nemo-Anna
+
+The approval process and permission model are defined in the [**The 9-Question Protocol for Responsible AI Actions**](https://discuss.huggingface.co/t/ise-intent-state-effect-model-isolating-judgment-for-cost-optimization-and-explainable-safety/172853) document, where they are proposed as a JSON schema.
+
+The adoption and final form of this schema should be determined through collaboration between regulators, users, and platforms.
 
 ## 🌐 Project Overview
 

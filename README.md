@@ -165,22 +165,50 @@ to encode:
 
 ## 🔗 Related Discussions (Hugging Face)
 
-This work is part of a broader exploration of how AI should interact with the physical world:
+This work is part of a broader exploration of how AI should interact with the physical world.
 
-### Core Concepts
-- [**Making the Physical World Callable for AI**](https://discuss.huggingface.co/t/making-the-physical-world-callable-for-ai/172627)     
-  Defines how physical actions are represented between devices and platforms so that AI can interpret them meaningfully.
+> A highly capable new employee (LLM) joins the team.  
+> They performed well elsewhere.  
+> But the physical world is different.  
+> Letting them act freely is risky.  
+> So we give them a manual.
 
-- [**The 9-Question Protocol for Responsible AI Actions**](https://discuss.huggingface.co/t/the-9-question-protocol-for-responsible-ai-actions/173045)      
-  Defines how actions are validated, including who is responsible for approval and under what conditions execution is allowed.
+## 🧠 Core Principles (Human-Readable Form)
 
-### Supporting Model
-- [**Intent–State–Effect: A Minimal Interaction Model**](https://discuss.huggingface.co/t/ise-intent-state-effect-model-isolating-judgment-for-cost-optimization-and-explainable-safety/172853)      
-  Provides a simplified structure for modeling actions, focusing on efficiency and reducing unnecessary execution cost.
+- **Know yourself**  
+- **Ask if unsure**  
+- **Stay in your lane**  
+- **It’s by design**
 
-### Extended Perspective
-- [**An Interpretive Framework for AI Safety**](https://discuss.huggingface.co/t/stop-turning-buttons-into-switches/173264)      
-  Explores responsibility, legal interpretation, and accountability across users, manufacturers, and platforms.
+---
+
+## 📘 Mapping to the System
+
+### 1. Core Concepts
+
+**[Making the Physical World Callable for AI](https://discuss.huggingface.co/t/making-the-physical-world-callable-for-ai/172627)** → *Know yourself*  
+→ What is the action?  
+→ How is it defined?
+
+**[The 9-Question Protocol for Responsible AI Actions](https://discuss.huggingface.co/t/the-9-question-protocol-for-responsible-ai-actions/173045)** → *Ask if unsure*  
+→ When is execution allowed?  
+→ Who approves it?
+
+---
+
+### 2. Supporting Model
+
+**[Intent–State–Effect: A Minimal Interaction Model](https://discuss.huggingface.co/t/ise-intent-state-effect-model-isolating-judgment-for-cost-optimization-and-explainable-safety/172853)** → *Stay in your lane*  
+→ Minimize unnecessary execution  
+→ Keep actions bounded
+
+---
+
+### 3. Extended Perspective
+
+**[Interpretive Framework for AI Safety](https://discuss.huggingface.co/t/stop-turning-buttons-into-switches/173264)** → *It’s by design*  
+→ Responsibility and accountability  
+→ Why these constraints exist
 
 ---
 

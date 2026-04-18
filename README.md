@@ -1,4 +1,5 @@
 # execution-boundaries
+## "Natural language is how we express intent. This JSON is how intent is validated."
 
 
 ![Design Notes](https://img.shields.io/badge/design-notes-lightgrey)

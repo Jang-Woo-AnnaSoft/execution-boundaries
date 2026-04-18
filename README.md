@@ -74,6 +74,9 @@ and it must not start if another heat source is already active.
 
 ### This is the missing layer between intent and execution.
 
+> ## “This lets you define safe actions without rewriting firmware.”
+> ## “You can describe device behavior in JSON — not code.”
+
 ---
 
 ## 1. The Problem — It's acting without understanding.

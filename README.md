@@ -20,6 +20,58 @@ AI does not even know what the device actually is, nor what will happen when it 
 
 > **Are you truly okay with this?**
 
+### So instead of asking what AI *can* do,  
+### we need to define whether an action *should be allowed* before it runs.
+
+## What this is
+
+This repository proposes a minimal structure that determines whether an action is allowed before execution.
+
+Instead of focusing on what AI **can** do,  
+it defines what an action **means**,  
+**when it is allowed**,  
+and under **what conditions it must not run**.
+
+## What this produces
+
+This defines whether an action is allowed before execution.
+
+```json
+{
+  "Label": "Cook Jjapagetti",
+  "ExecutionEffect": {
+    "Type": "Boil",
+    "Target": "Stove"
+  },
+  "Boundaries": [
+    { "Type": "NotStartIf", "Value": "no_water" },
+    { "Type": "limit", "Value": "max-cook-5min" },
+    { "Type": "warning", "Value": "fire-risk" }
+  ],
+  "EventTrigger": [
+    { "UserIntent": "cook_jjapagetti" }
+  ],
+  "ResponsibilityLimit": {
+    "MaxDurationSec": 300
+  },
+  "StartImpactConstraint": [
+    {
+      "Type": "NoConcurrentHeatSource",
+      "Targets": ["Oven", "AirFryer"]
+    }
+  ]
+}
+```
+
+You can cook Jjapagetti.
+
+But it must not start if there is no water,  
+it must not run for too long,  
+it must consider fire risk,  
+and it must not start if another heat source is already on.
+
+### This is the missing layer between intent and execution.
+
 ---
 
 ## 1. The Problem — It's acting without understanding.

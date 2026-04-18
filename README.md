@@ -48,8 +48,10 @@ This defines whether an action is allowed before execution.
     { "Type": "limit", "Value": "max-cook-5min" },
     { "Type": "warning", "Value": "fire-risk" }
   ],
+  "Context": "SundayCooking",
   "EventTrigger": [
-    { "UserIntent": "cook_jjapagetti" }
+    { "Observation": "water_ready", "Expected": true },
+    { "Observation": "stove_available", "Expected": true }
   ],
   "ResponsibilityLimit": {
     "MaxDurationSec": 300
@@ -68,7 +70,7 @@ You can cook Jjapagetti.
 But it must not start if there is no water,  
 it must not run for too long,  
 it must consider fire risk,  
-and it must not start if another heat source is already on.
+and it must not start if another heat source is already active.
 
 ### This is the missing layer between intent and execution.
 

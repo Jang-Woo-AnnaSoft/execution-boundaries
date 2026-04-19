@@ -29,8 +29,7 @@ AI does not even know what the device actually is, nor what will happen when it 
 This repository proposes a minimal structure that determines whether an action is allowed before execution.
 
 Instead of focusing on what AI **can** do,  
-it defines what an action **means**,  
-**when it is allowed**,  
+it defines what an action **means**, **when it is allowed**,  
 and under **what conditions it must not run**.
 
 ## What this produces
@@ -73,11 +72,23 @@ it must not run for too long,
 it must consider fire risk,  
 and it must not start if another heat source is already active.
 
-### This is the missing layer between intent and execution.
+This is the missing layer between intent and execution.
 
-## You can describe device behavior in JSON — not code.  
-## This lets you define safe actions without rewriting firmware.
+**You can describe device behavior in JSON — not code.**  
+**This lets you define safe actions without rewriting firmware.**
 
+---
+    
+We keep trying to make AI smarter.
+But maybe that’s not the problem.
+
+The real issue is what happens before action.
+
+Manufacturers predefine the **meaning** of actions and **safety rules**.  
+AI checks them **before** taking any action.  
+Users set what is **allowed**.
+
+**AI is not deciding. It’s following predefined rules.**
 
 ---
 

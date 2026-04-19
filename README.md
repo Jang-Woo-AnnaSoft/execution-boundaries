@@ -84,9 +84,9 @@ But maybe that’s not the problem.
 
 The real issue is what happens before action.
 
-Manufacturers predefine the **meaning** of actions and **safety rules**.  
-AI checks them **before** taking any action.  
-Users set what is **allowed**.
+**Manufacturers** predefine the **meaning** of actions and **safety rules**.  
+**AI** checks them **before** taking any action.  
+**Users** set what is **allowed**.
 
 **AI is not deciding. It’s following predefined rules.**
 
